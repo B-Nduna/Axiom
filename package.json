@@ -1,0 +1,25 @@
+{
+  "name": "axiom-personal-cycles",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "android:sync": "npm run build && npx cap sync android",
+    "android:apk": "npm run android:sync && cd android && gradlew assembleDebug",
+    "android:open": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.0",
+    "@capacitor/core": "^7.4.0",
+    "@capacitor/cli": "^7.4.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "firebase": "^12.0.0"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0"
+  }
+}

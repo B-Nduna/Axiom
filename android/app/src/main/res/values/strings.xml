@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">AXIOM</string>
+    <string name="title_activity_main">AXIOM</string>
+    <string name="package_name">za.co.codevenient.axiom</string>
+    <string name="custom_url_scheme">za.co.codevenient.axiom</string>
+</resources>

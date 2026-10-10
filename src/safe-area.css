@@ -1,0 +1,5 @@
+.native-top {
+  height: calc(75px + env(safe-area-inset-top, 0px));
+  padding-top: env(safe-area-inset-top, 0px);
+  background: #111615;
+}

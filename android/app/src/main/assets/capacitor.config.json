@@ -1,0 +1,8 @@
+{
+	"appId": "za.co.codevenient.axiom",
+	"appName": "AXIOM",
+	"webDir": "dist",
+	"server": {
+		"androidScheme": "https"
+	}
+}
